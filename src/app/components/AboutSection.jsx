@@ -8,15 +8,87 @@ const TAB_DATA = [
     title: "Skills",
     id: "skills",
     content: (
-      <ul className="list-disc pl-2">
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>NEXT</li>
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>MYSQL</li>
-        <li>Python</li>
-        <li>Flask</li>
+      <ul className="list-disc grid grid-cols-2 gap-2 xl:gap-4 xl:text-xl md:grid-cols-4  xl:grid-cols-3">
+        <li className="flex mt-1">
+          <Image
+            src="/images/Skills/javascript.png"
+            alt="JavaScript Icon"
+            width={50}
+            height={50}
+            className="w-6 h-6 mx-2"
+          />
+          JavaScript
+        </li>
+        <li className="flex mt-1">
+          <Image
+            src="/images/Skills/react.png"
+            alt="React Logo"
+            width={50}
+            height={50}
+            className="w-6 h-6 mx-2 rounded"
+          />
+          React
+        </li>
+        <li className="flex mt-1">
+          <Image
+            src="/images/Skills/next.png"
+            alt="Next Logo"
+            width={50}
+            height={50}
+            className="w-6 h-6 mx-2 rounded"
+          />
+          Next
+        </li>
+        <li className="flex mt-1">
+          <Image
+            src="/images/Skills/nodejs.png"
+            alt="Node Logo"
+            width={50}
+            height={50}
+            className="w-6 h-6 mx-2 rounded"
+          />
+          Node.js
+        </li>
+        <li className="flex mt-1">
+          <Image
+            src="/images/Skills/express.png"
+            alt="Express Logo"
+            width={50}
+            height={50}
+            className="w-6 h-6 mx-2 rounded"
+          />
+          Express
+        </li>
+        <li className="flex mt-1">
+          <Image
+            src="/images/Skills/mysql.png"
+            alt="Mysql Logo"
+            width={50}
+            height={50}
+            className="w-6 h-6 mx-2 rounded"
+          />
+          MySQL
+        </li>
+        <li className="flex mt-1">
+          <Image
+            src="/images/Skills/python.png"
+            alt="Python Logo"
+            width={50}
+            height={50}
+            className="w-6 h-6 mx-2 rounded"
+          />
+          Python
+        </li>
+        <li className="flex mt-1">
+          <Image
+            src="/images/Skills/flask.png"
+            alt="Flask Logo"
+            width={50}
+            height={50}
+            className="w-6 h-6 mx-2 rounded"
+          />
+          Flask
+        </li>
       </ul>
     ),
   },
@@ -24,9 +96,9 @@ const TAB_DATA = [
     title: "Education",
     id: "education",
     content: (
-      <ul className="list-disc pl-2">
-        <li>Born to Dev</li>
-        <li>Rangsit University</li>
+      <ul className="list-disc pl-2 xl:text-xl">
+        <li className="mb-4">Born to Dev</li>
+        <li className="mb-4">Rangsit University</li>
       </ul>
     ),
   },
@@ -34,9 +106,9 @@ const TAB_DATA = [
     title: "Certifications",
     id: "certifications",
     content: (
-      <ul className="list-disc pl-2">
-        <li>Udemy Fullstack Developer Course</li>
-        <li>Udemy ReactJS Developer Course</li>
+      <ul className="list-disc pl-2 xl:text-xl">
+        <li className="mb-4">Udemy Fullstack Developer Course</li>
+        <li className="mb-4">Udemy ReactJS Developer Course</li>
       </ul>
     ),
   },
@@ -52,11 +124,12 @@ const AboutSection = () => {
     });
   };
   return (
-    <section className="text-white">
+    <section id="about" className="text-white">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image
           src="/images/about-image.png"
           className="rounded-lg"
+          alt="About me image"
           width={500}
           height={500}
         />
