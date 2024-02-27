@@ -36,16 +36,18 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-6">
-            Wachirawit Phatthanasin, Rangsit University Bachelor's Degree in
-            Computer Science.
+            Wachirawit Phatthanasin, 27 years old, Rangsit University Bachelor's
+            Degree in Computer Science.
           </p>
           <div>
             <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 border border-[#121212] hover:border-white bg-gradient-to-br from-blue-500 via-primary-500 to-secondary-500  text-white">
-              Hire Me
+              <a href="#contact"> Hire Me</a>
             </button>
             <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-primary-500 to-secondary-500 to-secondary hove:bg-slate-800 text-white mt-3">
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                Download CV
+                <a href="/CV_1.pdf" target="_blank">
+                  Download CV
+                </a>
               </span>
             </button>
           </div>
