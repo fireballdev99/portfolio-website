@@ -44,7 +44,7 @@ const projectsData = [
     image: "/images/projects/Anime-vault.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/fireballdev99/anime-vault",
-    previewUrl: "https://vercel.com/vvachxra/anime-vault",
+    previewUrl: "https://anime-vault-gamma-one.vercel.app/",
   },
   {
     id: 5,
