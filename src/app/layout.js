@@ -4,8 +4,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "My Portfolio",
-  description: "Wachirawit's portfolio",
+  title: "Wachirawit Portfolio Website",
+  description: "Hi I'm Wachirawit Web Developer using JavaScript and Next.js, You can contact me via Email in this website's form"
 };
 
 export default function RootLayout({ children }) {
